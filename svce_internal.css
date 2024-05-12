@@ -1,0 +1,65 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vw;
+    width: 100vw;
+    flex-direction: column;
+    background-color:lightcyan;
+}
+.heading
+{
+    font-family:cursive;
+    font-size: 5vw;
+    text-align: center;
+    height:10vw;
+    width: 100vw;
+}
+.container
+{
+    width:75vw;
+    height:90vw;
+    background-color:lemonchiffon;
+    display:flex;
+    flex-direction: column;
+    padding: 3vw;
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vw;
+    column-gap: 15vw;
+}
+.part
+{
+    display:flex;
+    flex-direction: column;
+    row-gap: 1.5vw;
+}
+#btn,#find
+{
+    background-color:lightgreen;
+    color: white;
+    width:15vw;
+    position: relative;
+    left:25vw;
+    height: 4.5vw;
+    font-size: 2.5vw;
+    padding: 1vw;
+    cursor:pointer;
+}
+#display,#last
+{
+    font-size: 3vw;
+    text-align: center;
+    font-style:italic;
+}
+#question
+{
+    font-size: 3vw;
+    text-align: center;
+    display:none;
+    flex-direction: column;
+}

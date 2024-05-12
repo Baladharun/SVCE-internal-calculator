@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVCE internal calculator</title>
+    <link href="svce_internal.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="heading">SVCE Internal calculator</div>
+    <div class="container">
+        <div class="box">
+            <div class="part">
+                <div>Enter FAT 1 marks</div>
+                <input type="number" id="FAT1" style="height:3vw"></input>
+            </div>
+            <div class="part">
+                <div>Enter Assignment 1 marks</div>
+                <input type="number" id="A1" style="height:3vw"></input>
+            </div>
+        </div>
+        <br>
+        <div>
+            <hr>
+        </div>
+        <br>
+        <div class="box">
+            <div class="part">
+                <div for="FAT2">Enter FAT 2 marks</div>
+                <input type="number" id="FAT2" style="height:3vw"></input>
+            </div>
+            <div class="part">
+                <div>Enter Assignment 2 marks</div>
+                <input type="number" id="A2" style="height:3vw"></input>
+            </div>
+        </div>
+        <br>
+        <div>
+            <hr>
+        </div>
+        <br>
+        <div class="box">
+            <div class="part">
+                <div>Enter FAT 3 marks</div>
+                <input type="number" id="FAT3" style="height:3vw"></input>
+            </div>
+            <div class="part">
+                <div>Enter Assignment 3 marks</div>
+                <input type="number" id="A3" style="height:3vw"></input>
+            </div>     
+        </div>
+        <br>
+        <div>
+            <hr>
+        </div>
+        <br>
+        <button id="btn">Calculate</button>
+        <br>
+        <div id="display"></div>
+        <br>
+        <div id="question">
+            <div>
+                How many marks do you want 
+                (including your internal and <br>
+                end semester mark)?
+            </div>
+            <input type="number" id="guess" style="height:3vw;">
+            <br>
+            <button id="find">Find</button>
+            <br>
+            
+            <div id="last"></div>
+        </div>
+    </div>
+    <script src="svce_internal.js"></script>
+    
+</body>
+</html>
