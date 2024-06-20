@@ -1,65 +1,76 @@
+*
+{
+    background-color:#121212;
+    width:100%;
+    margin:0px;
+    padding: 0px;
+}
 body
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:100vw;
-    width: 100vw;
-    flex-direction: column;
-    background-color:lightcyan;
-}
-.heading
-{
-    font-family:cursive;
-    font-size: 5vw;
-    text-align: center;
-    height:10vw;
-    width: 100vw;
-}
-.container
-{
-    width:75vw;
-    height:90vw;
-    background-color:lemonchiffon;
     display:flex;
-    flex-direction: column;
-    padding: 3vw;
+    justify-content: center;
+    align-content: center;
+}
+h3{
+    color: white;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 2rem;
 }
 .box
 {
     display: flex;
     flex-direction: row;
-    font-size: 3vw;
-    column-gap: 15vw;
+    font-size: 1.5rem;
+    column-gap: 7vw;
+    color: beige;
 }
-.part
+.container
 {
-    display:flex;
-    flex-direction: column;
-    row-gap: 1.5vw;
+    column-gap:2vh;
+    max-width: 75vw;
 }
-#btn,#find
-{
-    background-color:lightgreen;
-    color: white;
-    width:15vw;
-    position: relative;
-    left:25vw;
-    height: 4.5vw;
-    font-size: 2.5vw;
-    padding: 1vw;
-    cursor:pointer;
+hr{
+    color: wheat;
 }
-#display,#last
+input
 {
-    font-size: 3vw;
-    text-align: center;
-    font-style:italic;
+    background-color: white;
+    margin-top: 1vh;
+    border-radius: 1vw;
+    height:70vh;
+}
+.btn
+{
+    width:fit-content;
 }
 #question
 {
-    font-size: 3vw;
-    text-align: center;
     display:none;
-    flex-direction: column;
+    color:antiquewhite;
+    font-size: 1.5rem;
+}
+#display
+{
+    color:aliceblue;
+    font-size: 2rem;
+}
+#find
+{
+    margin-top: 1.5vh;
+}
+@media (max-width: 768px) 
+{
+    .container{
+        max-width: 90%;
+    }
+    .box{
+        font-size: 1.25rem;
+    }
+    input
+    {
+        height:80vh;
+        padding: 1vw;
+    }
 }
