@@ -5,7 +5,7 @@ let A1 = document.getElementById('A1');
 let A2 = document.getElementById('A2');
 let A3 = document.getElementById('A3');
 let display = document.getElementById('display');
-let btn = document.getElementById('btn');
+let btn = document.getElementById('calculate');
 let qn = document.getElementById('question');
 let aim = document.getElementById('guess');
 let last = document.getElementById('last');
@@ -20,7 +20,7 @@ btn.addEventListener("click",()=>
     let result1 = (c1 + c2 + c3)*0.8;
     result = Math.round(result1);
     display.innerHTML="Your internal mark is " + result;
-    qn.style.display="flex";
+    qn.style.display="block";
     //console.log(result);
 })
 find.addEventListener('click',()=>
